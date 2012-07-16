@@ -44,6 +44,7 @@ Require Export Relations.
 
 Set Implicit Arguments.
 Unset Strict Implicit.
+Global Set Asymmetric Patterns.
 
 Structure > Setoid : Type := 
   {Carrier :> Type; Equal : Relation Carrier; Prf_equiv :> Equivalence Equal}.
