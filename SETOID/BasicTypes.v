@@ -32,7 +32,7 @@ Inductive EmptyType : Type :=.
 
 (* unit type *)
 
-Inductive UnitType : Type :=
+Inductive UnitType : Set :=
     Elt : UnitType.
 
 Hint Resolve Elt.
