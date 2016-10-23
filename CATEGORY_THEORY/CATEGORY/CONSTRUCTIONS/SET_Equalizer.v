@@ -60,7 +60,7 @@ Proof.
 unfold Equalizer_law1, Equalizer_eq, S_equaz_mor in |- *; simpl in |- *.
 unfold Ext in |- *; simpl in |- *; unfold Comp_fun in |- *; simpl in |- *;
  unfold Id_fun in |- *.
-intros i j x; elim x; simpl in |- *; auto with v62.
+intros i j x; elim x; simpl in |- *; auto.
 Qed.
 
  Section s_equaz_diese_def.
